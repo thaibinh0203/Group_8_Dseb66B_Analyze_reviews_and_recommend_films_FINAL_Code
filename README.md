@@ -31,7 +31,7 @@ Also, we want to introduce different branches in our Github as we need different
    - Learning about how to deploy machine learning model to API deployment and code the Review_Sentiment_Backend_Render branch 
    - Code the ReviewSentiment.ipynb in Review_Sentiment_Machine_Learning branch (except for the data cleaning part)
    - Combine codes of each member which are all locals, fixing bugs when combining and uploading to Share.streamlit.io
-   - Code the function part in review.py in Homepage_Combine branch
+
    - Make slide for presentation
 
 2. **Nguyễn Ngọc Linh (Sub lead) - 14.66%:**
