@@ -8,8 +8,8 @@ from pathlib import Path
 st.set_page_config(page_title="Movie Analytic & Recommendation", page_icon="🎬", layout="wide")
 
 #Path
-like = Path.cwd() / "images" / "LIKE.gif"
-disklike = Path.cwd() / "images" / "DISLIKE.gif"
+like_path = Path.cwd() / "images" / "LIKE.gif"
+disklike_path = Path.cwd() / "images" / "DISLIKE.gif"
 image_path = Path.cwd() / "images" / "BG.jpg"
 logo_path = Path.cwd() / "images" / "LOGO.png"
 
@@ -211,7 +211,7 @@ st.markdown("""
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 #API
-API_URL = "https://review-sentiment-app.onrender.com/predict"
+API_URL = "https://group-8-dseb66b-analyze-reviews-and.onrender.com/predict"
 
 #Input raw text & upload file
 left, center, right = st.columns([1, 6, 1])
@@ -339,7 +339,7 @@ if Analyze:
                             st.markdown(
                                 f"""
                                 <div style="text-align:center;">
-                                    <img src="data:image/gif;base64,{base64.b64encode(open(like, "rb").read()).decode()}" width="200">
+                                    <img src="data:image/gif;base64,{base64.b64encode(open(like_path, "rb").read()).decode()}" width="200">
                                 </div>
                                 """,
                                 unsafe_allow_html=True
@@ -349,7 +349,7 @@ if Analyze:
                             st.markdown(
                                 f"""
                                 <div style="text-align:center;">
-                                    <img src="data:image/gif;base64,{base64.b64encode(open(disklike, "rb").read()).decode()}" width="200">
+                                    <img src="data:image/gif;base64,{base64.b64encode(open(disklike_path, "rb").read()).decode()}" width="200">
                                 </div>
                                 """,
                                 unsafe_allow_html=True
@@ -418,7 +418,7 @@ if Analyze:
                             st.markdown(
                                 f"""
                                 <div style="text-align:center;">
-                                    <img src="data:image/gif;base64,{base64.b64encode(open(like, "rb").read()).decode()}" width="200">
+                                    <img src="data:image/gif;base64,{base64.b64encode(open(like_path, "rb").read()).decode()}" width="200">
                                 </div>
                                 """,
                                 unsafe_allow_html=True
@@ -428,7 +428,7 @@ if Analyze:
                             st.markdown(
                                 f"""
                                 <div style="text-align:center;">
-                                    <img src="data:image/gif;base64,{base64.b64encode(open(disklike, "rb").read()).decode()}" width="200">
+                                    <img src="data:image/gif;base64,{base64.b64encode(open(disklike_path, "rb").read()).decode()}" width="200">
                                 </div>
                                 """,
                                 unsafe_allow_html=True
