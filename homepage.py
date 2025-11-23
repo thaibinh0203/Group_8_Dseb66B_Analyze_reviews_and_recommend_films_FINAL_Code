@@ -56,6 +56,9 @@ st.markdown(f"""
     /* --- CONTAINER SETTINGS --- */
     .block-container{{ max-width:1400px; padding-top:60px; }}
     [data-testid="stToolbar"] {{ right: 2rem; }} /* Ẩn bớt toolbar */
+    [data-testid="stHeader"] {{ /* Ẩn thanh header mặc định trắng */
+    background: rgba(0,0,0,0) !important;
+    }}
 
     /* --- TYPOGRAPHY CLASSES --- */
     .headings-font {{
@@ -285,4 +288,3 @@ with col1:
 with col2:
     if st.button("Analyze Your Reviews", use_container_width=True):
         st.switch_page("pages/review.py")
-
