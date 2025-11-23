@@ -1,3 +1,12 @@
+<div align="center">
+  <iframe 
+      src="https://drive.google.com/file/d/1EQrA_U7SD5NzdVyX3pNpE1zTj5W_iVHb/preview" 
+      width="720" height="405"
+      allow="autoplay; encrypted-media" 
+      allowfullscreen>
+  </iframe>
+</div>
+
 # I. Introduction
 
 This project explores the application of Natural Language Processing (NLP) in two related tasks: analyzing user comments to determine sentiment and recommending movies based on user input. In the first task, NLP techniques are used to process textual data, such as user reviews or comments, to identify whether they express a positive or negative sentiment. Methods like tokenization, stopword removal, stemming, and vectorization (using BOW or BOP) transform raw text into structured numerical representations that machine learning models can understand. In the second task, these textual features are leveraged for content-based movie recommendations: by representing movie metadata-such as genres, keywords, plot summaries, cast, and crew-as text, NLP allows the system to compute similarities between movies and user input. Techniques like TF-IDF vectorization and cosine similarity enable the model to identify movies most relevant to a user’s comment or review. Together, these two tasks illustrate how NLP can be applied both to understand human language and to drive intelligent recommendations, turning unstructured text into actionable insights that enhance user interaction and personalization in movie discovery.
