@@ -1,14 +1,3 @@
-<div align="center">
-  <iframe 
-      src="https://player.vimeo.com/video/1139824173"
-      width="720" height="405"
-      frameborder="0"
-      allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen>
-  </iframe>
-</div>
-
-
 
 # I. Introduction
 
@@ -93,5 +82,6 @@ Also, we want to introduce different branches in our Github as we need different
 4. **How to use:**
    i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews (a new line is calculated as one review) or upload xlsx/txt/csv file with two columns (recommending named two columns stt and review) our web will give results as to how many of your reviews are positive/ negative.
    ii. Another feature is Recommender, just choose from the selectbox the film you like or input from keyboard its name, our web will recommend you similar movies, you can touch the image and press trailer to watch its trailer on Youtube).
-
+5. **Web video**
+   https://drive.google.com/file/d/1-yqYSO1HSVbR6cyZi4vswELNtssw3tG-/view?usp=drive_link 
 
