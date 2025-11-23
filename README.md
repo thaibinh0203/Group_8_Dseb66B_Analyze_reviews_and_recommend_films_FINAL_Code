@@ -58,7 +58,7 @@ Also, we want to introduce different branches in our Github as we need different
    - Learning about streamlit
 
 6. **Nguyễn Lâm Huy - 14.66%:**
-   - Code the design for review.py in Homepage_Combine branch 
+   - Code review.py in Homepage_Combine branch 
    - Learning about streamlit
 
 7. **Lê Thị Như Ý - 14.66%:**
