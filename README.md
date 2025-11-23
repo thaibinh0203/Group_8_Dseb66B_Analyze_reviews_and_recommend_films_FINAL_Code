@@ -76,9 +76,7 @@ Also, we want to introduce different branches in our Github as we need different
 
 3. **How to run:**
    i. Files such as ReviewSentiment.ipynb and Movie_Recommendation_System.ipynb : Run like normal to test the code in local computer  
-   ii. Go to dashboard.Render to choose respitory and choose Review_Sentiment_Backend_Render branch, build command:  
-   ```bash
-   pip install -r requirement.txt
+   ii. Go to dashboard.Render to choose respitory and choose Review_Sentiment_Backend_Render branch, build command:  pip install -r requirement.txt, start command: uvicorn main:review_app --host 0.0.0.0 --port $PORT
 
    iii. Press Create App on Streamlit and choosing the right git respitory
 4. **How to use:**
