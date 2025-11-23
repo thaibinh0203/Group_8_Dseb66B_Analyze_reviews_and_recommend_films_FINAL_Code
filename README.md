@@ -52,7 +52,7 @@ Also, we want to introduce different branches in our Github as we need different
    - Make the video for how to use the web
 
 5. **Hoàng Linh Phương - 14.66%:**
-   - Code the design for homepage
+   - Code the design and function in homepage.py in Homepage_Combine branch
    - Draw and Design Homepage, Review and Recommendation Frontend
    - Code the design and function in homepage.py in Homepage_Combine branch 
    - Learning about streamlit
