@@ -8,10 +8,10 @@ from pathlib import Path
 st.set_page_config(page_title="Movie Analytic & Recommendation", page_icon="🎬", layout="wide")
 
 #Path
-like = Path.cwd() / "iamges" / "LIKE.gif"
-disklike = Path.cwd() / "iamges" / "DISLIKE.gif"
-image_path = Path.cwd() / "iamges" / "BG.jpg"
-logo_path = Path.cwd() / "iamges" / "LOGO.png"
+like = Path.cwd() / "images" / "LIKE.gif"
+disklike = Path.cwd() / "images" / "DISLIKE.gif"
+image_path = Path.cwd() / "images" / "BG.jpg"
+logo_path = Path.cwd() / "images" / "LOGO.png"
 
 #Background
 with open(image_path, "rb") as image_file:
