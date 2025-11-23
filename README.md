@@ -69,7 +69,7 @@ Also, we want to introduce different branches in our Github as we need different
 
 ## III. Instructions for installing and running the code:
 
-1. **Python version used:** 3.12
+1. **Python version used:** 3.13
 
 2. **List of libraries to install:**  
    There is a requirements.txt file in each branch
@@ -79,6 +79,7 @@ Also, we want to introduce different branches in our Github as we need different
    ii. Go to dashboard.Render to choose respitory and choose Review_Sentiment_Backend_Render branch, build command:  
    ```bash
    pip install -r requirement.txt
+
    iii. Press Create App on Streamlit and choosing the right git respitory
 4. **How to use:**
    i. Our web has 2 features which are Review Sentiment Analysis and Movie Recommendations. With the first one, just go to review analysis, input from keyboard your reviews (a new line is calculated as one review) or upload xlsx/txt/csv file with two columns (recommending named two columns stt and review) our web will give results as to how many of your reviews are positive/ negative.
